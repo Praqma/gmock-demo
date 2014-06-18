@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\test\gmock_all_test.cc" />
+    <ClCompile Include="..\..\..\src\SampleWheelSensor.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tests\SampleWheelSensorTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TripData.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tests\TripDataTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Mutex.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tests\MutexTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Project">
+      <UniqueIdentifier>{e4fbcac0-eaaa-49c6-84aa-9080b6ea2308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{f70dfa09-871a-49f6-ae24-602240cc0f0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\IConfigurationData.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ISensorClient.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ITripData.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IWheelSensor.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SampleWheelSensor.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TripData.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMutex.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IUcos.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Mutex.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ucos.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
